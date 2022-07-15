@@ -1,1 +1,7 @@
-document.write('<meta name="robots" content="noindex" />');
+//document.write('<meta name="robots" content="noindex" />');
+
+function noindex(){
+    var html ="";
+    html += '<meta name="robots" content="noindex" />';
+    document.write(html);
+}
